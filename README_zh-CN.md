@@ -1,4 +1,4 @@
-# pinia-plugin-auto-store
+# vite-plugin-pinia-auto-store
 
 [English](README.md) | [中文](README_zh-CN.md)
 
@@ -16,11 +16,11 @@
 ## 安装
 
 ```bash
-npm install pinia-plugin-auto-store -D
+npm install vite-plugin-pinia-auto-store -D
 # 或
-pnpm add pinia-plugin-auto-store -D
+pnpm add vite-plugin-pinia-auto-store -D
 # 或
-yarn add pinia-plugin-auto-store -D
+yarn add vite-plugin-pinia-auto-store -D
 ```
 
 ## 使用方法
@@ -31,7 +31,7 @@ yarn add pinia-plugin-auto-store -D
 // vite.config.ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import piniaAutoStore from 'pinia-plugin-auto-store'
+import piniaAutoStore from 'vite-plugin-pinia-auto-store'
 
 export default defineConfig({
   plugins: [

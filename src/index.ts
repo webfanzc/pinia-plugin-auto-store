@@ -182,7 +182,7 @@ ${storeNames.reduce(
   }
 
   return {
-    name: 'pinia-plugin-auto-store',
+    name: 'vite-plugin-pinia-auto-store',
     configResolved(config) {
       root = config.root
       options.watch = options.watch ?? config.mode === 'development'

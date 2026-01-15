@@ -1,6 +1,6 @@
 {
-  "name": "pinia-plugin-auto-store",
-  "version": "1.0.10",
+  "name": "vite-plugin-pinia-auto-store",
+  "version": "1.0.0",
   "description": "A Vite plugin that generates Pinia store refs and keeps them in sync from a store directory.",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
@@ -38,7 +38,7 @@
     "typescript",
     "pinia",
     "pinia-plugin",
-    "pinia-plugin-auto-store"
+    "vite-plugin-pinia-auto-store"
   ],
   "author": "skelanimals(https://github.com/webfanzc)",
   "license": "MIT",

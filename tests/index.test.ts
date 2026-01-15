@@ -9,7 +9,7 @@ import piniaAutoStore from '../src/index'
 type MockResolvedConfig = Pick<ResolvedConfig, 'root' | 'mode'>
 type MockBuildStartOptions = Record<string, never>
 
-describe('pinia-plugin-auto-store', () => {
+describe('vite-plugin-pinia-auto-store', () => {
   let testDir: string
   let storeDir: string
   let outputFile: string
