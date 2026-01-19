@@ -115,7 +115,7 @@ ${storeNames.reduce(
 )}
 
 type StoreToRefs<T extends StoreDefinition> = {
-  [K in keyof ReturnType<T>]: ReturnType<T>[K] extends (...args: unknown[]) => unknown
+  [K in keyof ReturnType<T>]: ReturnType<T>[K] extends (...args: any[]) => any
     ? ReturnType<T>[K]
     : ToRef<UnwrapRef<ReturnType<T>[K]>>
 }
@@ -151,7 +151,7 @@ ${storeNames.reduce(
 import store from '${relativeStorePath}'
 
 type StoreToRefs<T extends StoreDefinition> = {
-  [K in keyof ReturnType<T>]: ReturnType<T>[K] extends (...args: unknown[]) => unknown
+  [K in keyof ReturnType<T>]: ReturnType<T>[K] extends (...args: any[]) => any
     ? ReturnType<T>[K]
     : ToRef<UnwrapRef<ReturnType<T>[K]>>
 }
